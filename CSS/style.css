@@ -1,0 +1,23 @@
+/* Font family from google fonts-Mulish */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Mulish", sans-serif;
+}
+.logo-images {
+  display: flex;
+  align-items: center;
+  margin-left: 135px;
+  margin-top: 50px;
+  width: 50%;
+}
+.nav-title-menu {
+  display: flex;
+}
+.nav-title-menu a {
+  display: flex;
+}
