@@ -97,6 +97,93 @@ body {
   background: #ff5400;
   color: #ff5400;
 }
-.packages {
+.main-section-title {
   display: flex;
+  margin-top: 20px;
+}
+.packages {
+  width: 50%;
+  margin-left: 135px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+.main-headers {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.main-title {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+.main-special-offer {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+.input-button {
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.packages-images {
+  width: 50%;
+  margin-right: 100px;
+}
+.select-destination {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 40px;
+}
+.destination-content {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.images-tour {
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%);
+  margin-left: 137px;
+  margin-right: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.three-country-tour {
+  margin-left: 137px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: auto;
+}
+.footer-content {
+  background: rgba(19, 19, 24, 0.05);
+  width: 1440px;
+  height: 502px;
+  flex-shrink: 0;
+  margin-left: 137px;
+  margin-right: 20px;
+  text-align: center;
+  justify-content: center;
 }
