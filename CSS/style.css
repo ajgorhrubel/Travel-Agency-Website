@@ -130,6 +130,11 @@ body {
   margin-bottom: 20px;
   line-height: 20px;
 }
+.main-title-description {
+  margin-right: 70px;
+  margin-left: 20px;
+  line-height: 26px;
+}
 .input-button {
   border-radius: 8px;
   background: #ff5400;
@@ -166,24 +171,92 @@ body {
   border-radius: 16px;
   background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%);
   margin-left: 137px;
-  margin-right: 200px;
-  display: flex;
+  margin-right: 160px;
+  display: grid;
   justify-content: space-between;
+  grid-template-columns: repeat(2, 1fr);
 }
 .three-country-tour {
   margin-left: 137px;
+  margin-right: 90px;
   margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-items: auto;
+  gap: 24px;
+}
+.tour-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-left: 137px;
+  margin-right: 195px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.choose-section {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 20px;
+}
+.descriptive-title {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-right: 399px;
+  margin-left: 398px;
+  margin-bottom: 20px;
+}
+.deals-description {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  align-items: center;
+}
+.deals-1 {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  width: 50%;
+  height: 284px;
+  width: 573px;
+  margin-left: 135px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.deals-2 {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  width: 50%;
+  height: 284px;
+  width: 573px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.deals-3 {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  width: 50%;
+  height: 284px;
+  width: 573px;
+  margin-left: 100px;
+  padding-left: 20px;
+  padding-top: 20px;
+  align-content: center;
 }
 .footer-content {
   background: rgba(19, 19, 24, 0.05);
   width: 1440px;
   height: 502px;
-  flex-shrink: 0;
-  margin-left: 137px;
-  margin-right: 20px;
   text-align: center;
-  justify-content: center;
 }
